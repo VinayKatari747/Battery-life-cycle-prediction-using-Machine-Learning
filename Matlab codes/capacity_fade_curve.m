@@ -10,7 +10,7 @@ window_size = 5;
 
 
 for cell_idx = 1:46
-    % Initialize variables to store cycle numbers and discharge capacity differences
+    % variables to store cycle numbers and discharge capacity differences
     cycle_numbers = [];
     capacity_differences = [];
 
@@ -53,6 +53,6 @@ grid on;
 
 legend(legend_labels, 'Location', 'best');
 
-hold off; % Release the hold on the plot
+hold off; 
 
 
